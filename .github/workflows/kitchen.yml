@@ -27,7 +27,7 @@ jobs:
       - name: Workflow Dispatch
         uses: convictional/trigger-workflow-and-wait@v1.3.0
         with:
-          owner: amitkumardube
+          owner: basivireddy
           repo: kitchen-terraform
           workflow_file_name: kitchen.yml
           github_token: ${{ secrets.PAT }}
